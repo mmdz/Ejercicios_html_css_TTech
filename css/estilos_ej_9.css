@@ -1,0 +1,35 @@
+/*9. Para este apartado vamos a crear 2 listas:
+1) Lista con viñetas con aspectos personalizados a elección.
+2) Lista vertical con links a paginas a elección.*/
+
+#lista_1 {
+  list-style-type: georgian;
+  
+  /*list-style-image: url("../img/limon_img_title.jpg");*/
+  list-style-position: inside;
+  font-family: 'Courier New', Courier, monospace;
+  
+}
+#lista_2 {
+  border: 1px solid #7c7c7c;
+  border-bottom: none;
+  list-style-image: none; /*url("../img/limon_img_title.jpg");*/
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+
+#lista_2 li {
+  background: #f4f4f4;
+  border-bottom: 1px solid #7c7c7c;
+  border-top: 1px solid #fff;
+}
+/*
+ul.menu li a {
+color: #333;
+display: block;
+padding: .2em 0 .2em .5em;
+text-decoration: none;
+}
+*/

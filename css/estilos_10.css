@@ -1,0 +1,75 @@
+/*10. A partir del siguiente código HTML proporcionado, añadir las reglas CSS necesarias
+para que la página resultante tenga el mismo aspecto que el de la siguiente imagen:*/
+#titulo {
+  color: #0b7a7e;
+}
+strong {
+  color: red;
+}
+.destacado {
+  color: orange;
+}
+
+#subtitulo {
+  color: blue;
+}
+
+p a {
+  color: red;
+}
+
+p a em {
+  /*herencia de afuera hacia adentro*/
+  color: blue;
+}
+.especial {
+  color: purple;
+}
+
+/*tabla*/
+caption {
+    padding: 1em;
+}
+
+table {
+  box-sizing: border-box; /*hasta el borde*/
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td,th,table {
+  padding: 0.3em;
+  border: 0.09em solid black;
+}
+
+thead .especial, tbody .especial{
+    color: orange;
+}
+tbody th{
+    color:red;
+}
+
+td strong {
+  color: orange;
+}
+
+td{
+    color: green;
+}
+
+tfoot{
+    color: red;
+}
+
+/*fin tabla*/
+
+#adicional {
+  color: #6d6c08;
+}
+#especial {
+  color: fuchsia;
+}
+
+#adicional p a {
+  color: green;
+}
